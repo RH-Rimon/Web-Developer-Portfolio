@@ -5,6 +5,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .nav-title {
@@ -57,4 +60,25 @@ nav a {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Related Styles */
+
+header {
+
+    background-color: #FFF8F3;
+}
+
+.banner {
+
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+
+    width: 500px;
+
+    flex-shrink: 0;
 }
