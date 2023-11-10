@@ -67,13 +67,17 @@ nav a {
 header {
 
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
 
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .profile-pic {
@@ -81,4 +85,72 @@ header {
     width: 500px;
 
     flex-shrink: 0;
+}
+
+.banner-greeting {
+
+    color: Dark 02;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-title {
+
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.banner-content {
+
+    width: 585px;
+}
+
+.description-01 {
+
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-top: 20px;
+
+}
+
+/* Main Section Styles */
+
+/* About Section Styles */
+.about {
+
+    width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+    margin: 130px 230px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.section-title {
+
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 130px 485px 30px 485px;
+
+}
+
+.section-description {
+
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding-left: 155px;
+    padding-right: 155px;
 }
