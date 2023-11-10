@@ -70,6 +70,8 @@ header {
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-image: url('../images/developer.png');
+    background-position: left;
 }
 
 .banner {
@@ -297,4 +299,9 @@ footer {
 
     height: 180px;
     flex-shrink: 0;
+}
+
+.footer-div a {
+
+    margin-right: 30px;
 }
